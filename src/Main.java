@@ -17,4 +17,10 @@ public class Main {
             hello(name);
         }
     }
+
+    public static void byeAll(ArrayList<String> names){
+        for (String name : names) {
+            bye(name);
+        }
+    }
 }
